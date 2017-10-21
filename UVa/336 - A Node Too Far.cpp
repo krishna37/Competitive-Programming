@@ -90,7 +90,7 @@ int main(){
                  }
             }*/
              int ttl,start;
-             while(scanf("%d %d",&start,&ttl) && (start!=0 || ttl!=0)){
+             while(cin >> start >> ttl && (start!=0 || ttl!=0)){
                 map <int,int>::const_iterator itr;
                 visited.clear();
                 bfs(start,graph);
